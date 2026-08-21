@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="color-scheme" content="dark">
+<title>NovaMotion</title>
+<link rel="stylesheet" href="src/newtab.css">
+</head>
+<body>
+<div id="app" class="app">
+  <div id="fallback" class="fallback"></div>
+  <video id="wallpaperVideo" class="wallpaper" playsinline muted preload="metadata"></video>
+  <img id="wallpaperImage" class="wallpaper" alt="" draggable="false">
+  <img id="depthLayer" class="depth-layer" alt="" draggable="false">
+  <div id="wallpaperOverlay" class="wallpaper-overlay"></div>
+
+  <main class="shell">
+    <header class="topbar">
+      <div class="brand" id="brandBlock">
+        <img src="icons/icon128.svg" class="brand-mark" alt="NovaMotion">
+        <div><strong>NovaMotion</strong><span>Live Tab</span></div>
+      </div>
+      <div class="top-actions" id="topActions">
+        <button class="icon-btn live-icon" id="shuffleBtn" title="Next wallpaper">⤨</button>
+        <button class="icon-btn live-icon" id="favoriteBtn" title="Favorite wallpaper">♡</button>
+        <button class="icon-btn live-icon" id="playBtn" title="Play / pause wallpaper">▶</button>
+        <button class="icon-btn live-icon" id="muteBtn" title="Mute / unmute wallpaper">🔇</button>
+        <button class="icon-btn live-icon" id="focusBtn" title="Focus mode">◒</button>
+        <button class="icon-btn live-icon" id="settingsBtn" title="Settings">⚙</button>
+      </div>
+    </header>
+
+    <section class="hero">
+      <div class="time-block">
+        <div id="greeting" class="greeting"></div>
+        <div id="clock" class="clock">00:00</div>
+        <div id="date" class="date"></div>
+        <div id="calendar" class="calendar" aria-live="polite"></div>
+      </div>
+      <form id="searchForm" class="search-bar glass">
+        <span class="search-icon">⌕</span>
+        <input id="searchInput" autocomplete="off" spellcheck="false" placeholder="Search the web…">
+        <button type="button" class="search-engine" id="engineBtn">Google</button>
+      </form>
+    </section>
+
+    <footer class="bottom-area" id="bottomArea">
+      <div class="shortcut-rail glass" id="shortcutRail">
+        <div id="shortcutGrid" class="shortcut-grid"></div><span id="shortcutCount" class="shortcut-count" aria-hidden="true"></span>
+        <button class="shortcut add-shortcut live-icon" id="addShortcutBtn" title="Add shortcut"><span>＋</span><span class="shortcut-add-label">Add</span></button>
+        <button class="shortcut compact-tool live-icon wallpaper-launch" id="wallpapersBtn" title="Open wallpaper library"><span class="tool-glyph image-glyph">▣</span><span class="tool-label">Wallpapers</span></button>
+        <button class="shortcut compact-tool live-icon" id="audioBtn" title="Sounds"><span class="tool-glyph">◉</span></button>
+        <button class="shortcut compact-tool live-icon" id="bookmarksBtn" title="Bookmarks"><span class="tool-glyph">★</span></button>
+        <button class="shortcut compact-tool live-icon" id="pomodoroBtn" title="Pomodoro"><span class="tool-glyph">◷</span></button>
+      </div>
+    </footer>
+  </main>
+
+  <div id="dropHint" class="drop-hint">Drop an image, video or GIF to add it to your library</div>
+  <div id="mediaStatus" class="media-status"></div>
+  <div id="wallpaperCaption" class="wallpaper-caption"></div>
+  <aside id="noteWidget" class="note-widget glass" aria-label="Quick Notes">
+    <div class="note-head">
+      <div class="note-title"><span class="note-icon">✦</span><div><strong>Quick Notes</strong><small>Saved on this browser</small></div></div>
+      <button id="noteToggle" class="note-toggle" title="Hide notes">⌄</button>
+    </div>
+    <textarea id="noteInput" placeholder="Jot something down…"></textarea>
+    <div class="note-footer"><span id="noteStatus">Auto-saved</span><button id="noteClear" class="note-clear" type="button">Clear</button></div>
+  </aside>
+  <button id="noteReopen" class="note-reopen" type="button" title="Show Quick Notes">✦</button>
+  <div id="toast" class="toast" aria-live="polite"></div>
+
+  <div id="modalBackdrop" class="modal-backdrop" hidden aria-hidden="true">
+    <section id="modal" class="modal" role="dialog" aria-modal="true"></section>
+  </div>
+</div>
+<script type="module" src="src/newtab.js"></script>
+</body>
+</html>
