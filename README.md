@@ -1,4 +1,4 @@
-# NovaMotion Live Tab
+[# NovaMotion Live Tab
 
 > A modern, ultra-lightweight, and privacy-first Chrome New Tab extension featuring local live wallpapers, 3D depth parallax, multi-calendar support, quick notes, smart shortcuts, and a pixel-perfect live customization engine.
 
@@ -86,3 +86,4 @@
 
 ## 📄 License
 This project is open-source under the [MIT License](LICENSE).
+](https://github.com/amiraction0938/NovaMotion-Live-Tab)
