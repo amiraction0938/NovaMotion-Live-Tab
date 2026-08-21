@@ -1,10 +1,11 @@
-[# NovaMotion Live Tab
+# NovaMotion Live Tab
 
 > A modern, ultra-lightweight, and privacy-first Chrome New Tab extension featuring local live wallpapers, 3D depth parallax, multi-calendar support, quick notes, smart shortcuts, and a pixel-perfect live customization engine.
 
 <p align="left">
-  <a href="#-key-features"><b>English</b></a> •
-  <a href="#-راهنمای-فارسی-persian"><b>فارسی</b></a>
+  <a href="#-key-features"><b>English Overview</b></a> •
+  <a href="#-why-novamotion-a-note-from-the-creator"><b>Creator's Note</b></a> •
+  <a href="#-persian-documentation--راهنمای-فارسی"><b>راهنمای فارسی (Persian)</b></a>
 </p>
 
 ---
@@ -18,6 +19,15 @@
 <p align="center">
   <img src="screenshots/preview.png" alt="Live Preview & Customization Engine" width="90%">
 </p>
+
+---
+
+## 💡 Why NovaMotion? (A Note from the Creator)
+
+> "The main reason I built NovaMotion was frustration with modern browser extensions: most of them either hide basic features behind expensive subscriptions or collect unnecessary user data with questionable privacy practices. I always envisioned a clean, safe, and all-in-one environment right inside Chrome—bringing together live video wallpapers, multiple calendar systems, quick note-taking, shortcuts, and focus tools.
+>
+> I gathered all these essential features into a completely free, local-first, and secure project that belongs to everyone. It might still have room for polish, but I gave it my absolute best. Thank you for your support, patience, and for taking the time to explore NovaMotion!"  
+> — **AmirAction**
 
 ---
 
@@ -53,16 +63,22 @@
 
 ---
 
-<details>
-<summary><b>🇮🇷 راهنمای فارسی (برای مشاهده کلیک کنید)</b></summary>
-
-<br>
+## 🇮🇷 Persian Documentation / راهنمای فارسی
 
 > **NovaMotion Live Tab** یک افزونه مدرن، سبک و امن برای نیوتب مرورگر کروم است که امکانات کاملی برای شخصی‌سازی محیط کاربری و افزایش تمرکز در اختیارتان قرار می‌دهد.
 
+### 💬 حرف دل سازنده (داستان شکل‌گیری NovaMotion)
+
+> «دلیل اصلی ساخت این افزونه این بود که بیشتر گزینه‌های موجود یا پولی و اشتراکی بودند یا دغدغه‌های جدی درباره حریم خصوصی و امنیت کاربر ایجاد می‌کردند. من همیشه دوست داشتم محیطی در مرورگر داشته باشم که تمام ابزارهای کاربردی روزمره—از والپیپرهای متحرک گرفته تا تقویم، یادداشت سریع و شورتکات‌ها—همه در یک محیط امن، سبک و در دسترس گرد هم بیایند.
+> 
+> تصمیم گرفتم تمام این قابلیت‌ها را در قالب یک محصول کاملاً رایگان، بدون ردیابی و محلی بسازم تا همه بتوانند با خیالی راحت از آن استفاده کنند. شاید هنوز جای پیشرفت داشته باشد، اما تمام تلاشم را برای ارائه بهترین تجربه انجام داده‌ام. از همراهی شما و وقتی که برای استفاده از این پروژه می‌گذارید، صمیمانه سپاسگزارم.»  
+> — **امیر اکشن**
+
+---
+
 ### 🌟 ویژگی‌های کلیدی
 
-- 📅 **پشتیبانی کامل از تقویم شمسی (جلالی)**: نمایش تاریخ دقیق خورشیدی با امکان تنظیم فونت، اندازه و موقعیت در صفحه.
+- 📅 **پشتیبانی کامل از تقویم شمسی (جلالی)**: نمایش تاریخ دقیق خورشیدی با امکان تنظیم فونت، اندازه و موقعیت دلخواه در صفحه.
 - 🎥 **والپیپرهای زنده محلی**: اجرای روان ویدیوها و گیف‌ها به صورت آفلاین بدون مصرف اینترنت یا افت سرعت.
 - 📱 **افکت عمق سه‌بعدی (Parallax)**: جابه‌جایی زاویه‌دار و نرم المان‌ها همگام با حرکت ماوس.
 - 🎨 **تنظیمات دقیق رنگ و نور**: شخصی‌سازی روشنایی، کنتراست، چرخه رنگ (Hue)، افکت نوستالژیک سِپیا و مات‌کردن پس‌زمینه.
@@ -76,8 +92,6 @@
 ۳. گزینه **Developer mode** را در بالا سمت راست فعال کنید.  
 ۴. روی دکمه **Load unpacked** زده و پوشه افزونه را انتخاب نمایید.  
 
-</details>
-
 ---
 
 ## 👥 Credits & Direction
@@ -86,4 +100,3 @@
 
 ## 📄 License
 This project is open-source under the [MIT License](LICENSE).
-](https://github.com/amiraction0938/NovaMotion-Live-Tab)
