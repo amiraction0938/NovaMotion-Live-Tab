@@ -2,6 +2,11 @@
 
 > A modern, ultra-lightweight, and privacy-first Chrome New Tab extension featuring local live wallpapers, 3D depth parallax, multi-calendar support, quick notes, smart shortcuts, and a pixel-perfect live customization engine.
 
+<p align="left">
+  <a href="#-key-features"><b>English</b></a> •
+  <a href="#-راهنمای-فارسی-persian"><b>فارسی</b></a>
+</p>
+
 ---
 
 ## 📸 Preview & Screenshots
@@ -31,42 +36,47 @@
 
 ## 🚀 Quick Installation
 
-1. Download the latest `.zip` release from the [Releases](https://github.com/amiraction0938/NovaMotion-Live-Tab/releases) page.
-2. Unpack the downloaded archive to a local folder.
-3. Open Google Chrome and go to `chrome://extensions/`.
+1. Download the latest `.zip` release from the [Releases](https://github.com/amiraction0938/NovaMotion-Live-Tab/releases) section.
+2. Unpack the downloaded archive to a local directory.
+3. Open Google Chrome and navigate to `chrome://extensions/`.
 4. Enable **Developer mode** in the top-right corner.
 5. Click **Load unpacked** and select the folder containing `manifest.json`.
 6. Open a new tab to launch NovaMotion.
 
 ---
 
-## 🔒 Privacy
+## 🔒 Privacy & Security
 
-- **100% Local-First**: Your media, notes, and preferences remain strictly inside your browser profile.
-- **Zero Telemetry**: No tracking, analytics, or external network requests.
-- **Manifest V3 Compliant**: Built to strict modern security and performance standards.
+- **100% Local-First**: Media, notes, and preferences remain strictly inside your local browser storage.
+- **Zero Telemetry**: No analytics, background trackers, or external API requests.
+- **Manifest V3 Compliant**: Built strictly to modern Chromium security and performance standards.
 
 ---
 
-# راهنمای فارسی (Persian Documentation)
+<details>
+<summary><b>🇮🇷 راهنمای فارسی (برای مشاهده کلیک کنید)</b></summary>
 
-> **NovaMotion Live Tab** یک افزونه مدرن، بسیار سبک و امن برای نیوتب (New Tab) گوگل کروم است که امکانات گسترده‌ای برای شخصی‌سازی محیط کاربری و افزایش تمرکز در اختیارتان قرار می‌دهد.
+<br>
 
-### 🌟 ویژگی‌های کلیدی برای کاربران فارسی‌زبان
+> **NovaMotion Live Tab** یک افزونه مدرن، سبک و امن برای نیوتب مرورگر کروم است که امکانات کاملی برای شخصی‌سازی محیط کاربری و افزایش تمرکز در اختیارتان قرار می‌دهد.
 
-- 📅 **پشتیبانی کامل از تقویم شمسی (جلالی)**: نمایش تاریخ دقیق خورشیدی در کنار ساعت با قابلیت انتخاب فونت، اندازه و موقعیت مکانی.
-- 🎥 **والپیپرهای زنده محلی**: امکان قرار دادن ویدیو، گیف و تصاویر باکیفیت بدون کندی سیستم یا مصرف اینترنت.
-- 📱 **افکت عمق و حرکت سه‌بعدی**: ایجاد بعد و حرکت نرم عناصر با جابه‌جایی نشانگر ماوس.
-- 🎨 **تنظیمات پیشرفته نور و رنگ**: کنترل دقیق کنتراست، روشنایی، غلظت رنگ و فیلترهای جذاب برای پس‌زمینه.
-- 📐 **چیدمان کاملاً آزاد**: جابه‌جایی ساعت، تاریخ، تقویم و نوار جستجو به هر نقطه از صفحه نمایش.
-- 📝 **یادداشت سریع خودکار**: بدون نیاز به اینترنت یا حساب کاربری، یادداشت‌های خود را ذخیره کنید.
+### 🌟 ویژگی‌های کلیدی
 
-### 📥 راهنمای نصب سریع
+- 📅 **پشتیبانی کامل از تقویم شمسی (جلالی)**: نمایش تاریخ دقیق خورشیدی با امکان تنظیم فونت، اندازه و موقعیت در صفحه.
+- 🎥 **والپیپرهای زنده محلی**: اجرای روان ویدیوها و گیف‌ها به صورت آفلاین بدون مصرف اینترنت یا افت سرعت.
+- 📱 **افکت عمق سه‌بعدی (Parallax)**: جابه‌جایی زاویه‌دار و نرم المان‌ها همگام با حرکت ماوس.
+- 🎨 **تنظیمات دقیق رنگ و نور**: شخصی‌سازی روشنایی، کنتراست، چرخه رنگ (Hue)، افکت نوستالژیک سِپیا و مات‌کردن پس‌زمینه.
+- 📐 **چیدمان کاملاً آزاد**: امکان انتقال ساعت، تاریخ، تقویم و سرچ‌بار به هر بخش دلخواه از مانیتور.
+- 📝 **یادداشت سریع خودکار**: ذخیره آنی متن‌ها بدون نیاز به حساب کاربری یا اینترنت.
 
-۱. فایل فشرده افزونه را از بخش [Releases](https://github.com/amiraction0938/NovaMotion-Live-Tab/releases) دانلود و استخراج (Unzip) کنید.  
-۲. در مرورگر کروم آدرس `chrome://extensions/` را باز کنید.  
-۳. گزینه **Developer mode** را در بالا سمت راست روشن کنید.  
-۴. روی دکمه **Load unpacked** کلیک کرده و پوشه برنامه را انتخاب کنید.  
+### 📥 مراحل نصب
+
+۱. فایل فشرده افزونه را از بخش [Releases](https://github.com/amiraction0938/NovaMotion-Live-Tab/releases) دانلود و از حالت زیپ خارج کنید.  
+۲. در کروم آدرس `chrome://extensions/` را باز کنید.  
+۳. گزینه **Developer mode** را در بالا سمت راست فعال کنید.  
+۴. روی دکمه **Load unpacked** زده و پوشه افزونه را انتخاب نمایید.  
+
+</details>
 
 ---
 
